@@ -8,6 +8,10 @@ body {
   font-family: "Lato", sans-serif;
   background-color: #fff;
 }
+/* common css styles */
+.text-primary {
+  color: #e55473;
+}
 /* header styles starts from here */
 header {
   height: 90vh;
@@ -50,3 +54,56 @@ header {
   background: #e55473;
 }
 
+/* Our feature section */
+.featured-flower {
+  margin: 130px auto;
+  width: 80%;
+}
+.section-title {
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 34px;
+  font-weight: 800;
+}
+.section-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 24px 0 48px 0;
+}
+.featured-img {
+  display: flex;
+  gap: 24px;
+}
+.featured-img > div > img {
+  border-top-right-radius: 48%;
+  border-top-left-radius: 48%;
+  width: 100%;
+}
+.featured-img1 {
+  background-color: rgba(167, 33, 98, 0.15);
+
+  padding: 132px 76px 0px 76px;
+}
+.featured-img2 {
+  background-color: rgba(5, 151, 160, 0.15);
+  /* width: 370px;
+  height: 370px; */
+  padding: 118px 47px 47px 51px;
+}
+.featured-img3 {
+  background-color: rgba(71, 125, 17, 0.15);
+  width: 314px;
+  height: 471px;
+  padding: 46px 75px 0px 75px;
+}
+.featured-img > div > p {
+  color: #272727;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration-line: underline;
+  margin-top: 32px;
+}
