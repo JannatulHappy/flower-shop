@@ -48,8 +48,8 @@ header {
   border: none;
   font-size: 20px;
   font-style: normal;
-  font-weight: 700;
-  padding: 20px 44px;
+  font-weight: 400;
+  padding: 18px 44px;
   border-radius: 8px;
   background: #e55473;
 }
@@ -113,6 +113,7 @@ header {
   margin: 128px auto;
   background-color: rgba(39, 39, 39, 0.05);
   padding: 86px 176px;
+  border-radius: 8px;
   display: flex;
   gap: 100px;
   text-align: center;
@@ -124,18 +125,54 @@ header {
 }
 /* hot-deal-section styles here */
 .hot-deal-section {
- 
   background-color: rgba(229, 84, 115, 0.05);
 }
 .hot-deal-container {
-    width: 80%;
-    margin:0 auto;
+  width: 80%;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   gap: 186px;
-  
-  
+
   padding: 100px 120px;
+}
+/* instagram section styles here */
+.insta-section {
+  width: 80%;
+  margin: 128px auto;
+}
+.insta-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.insta-img > img {
+  width: 24%;
+}
+/* latest details section styles starts here */
+
+.latest-details {
+  width: 80%;
+  margin: 0 auto;
+  background-image: url("/flower-asset/Rectangle 9.png");
+  background-size:contain;
+  background-position: center;
+  padding: 122px 0px;
+  text-align: center;
+  background-repeat: no-repeat;
+}
+input[type="email"]{
+padding: 22px 0px 22px 22px;
+border-radius: 8px;
+border:none;
+width: 44%;
+}
+.detail-input{
+    display: flex;
+    gap:16px;
+    align-items: center;
+    justify-content: center;
 }
