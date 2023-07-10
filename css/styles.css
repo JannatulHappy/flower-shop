@@ -152,6 +152,21 @@ header {
 .insta-img > img {
   width: 24%;
 }
+/* clients styles starts here */
+.client-img {
+  display: flex;
+  gap: 20px;
+  padding-top: 30px;
+}
+.client-container {
+  width: 80%;
+  margin: 128px auto;
+  background-color: rgba(39, 39, 39, 0.05);
+  padding: 86px 50px;
+  border-radius: 8px;
+  text-align: center;
+}
+
 /* latest details section styles starts here */
 
 .latest-details {
@@ -197,5 +212,4 @@ footer p {
 }
 footer small {
   color: rgba(255, 255, 255, 0.4);
-
 }
