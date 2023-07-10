@@ -107,3 +107,18 @@ header {
   text-decoration-line: underline;
   margin-top: 32px;
 }
+/* service section styles starts here */
+.service-section {
+  width: 80%;
+  margin: 128px auto;
+  background-color: rgba(39, 39, 39, 0.05);
+  padding: 86px 176px;
+  display: flex;
+  gap: 100px;
+  text-align: center;
+}
+.service-section > div > p {
+  color: rgba(39, 39, 39, 0.8);
+  margin-top: 24px;
+  font-weight: 700;
+}
