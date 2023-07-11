@@ -3,45 +3,57 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   font-family: "Lato", sans-serif;
   background-color: #fff;
 }
 /* common css styles */
+/* color */
 .text-primary {
   color: #e55473;
 }
-/* header styles starts from here */
-header {
-  height: 90vh;
-  background-color: rgba(229, 84, 115, 0.05);
+.dark01 {
+  color: #272727;
 }
-.header-container {
-  padding-top: 50px;
+.dark03 {
+  color: rgba(39, 39, 39, 0.6);
+}
+/* background */
+.bg-primary {
+  background-color: rgba(229, 84, 115, 0.1);
+}
+.bg-secondary {
+  background-color: rgba(39, 39, 39, 0.05);
+  border-radius: 8px;
+}
+/* flex */
+.flex-items {
   display: flex;
-  justify-content: center;
   align-items: center;
-  gap: 96px;
+  justify-content: center;
+}
+/* window fit */
+.window-fit-01 {
   width: 80%;
   margin: 0 auto;
+  text-align: center;
 }
-.header-title {
-  color: #272727;
-  font-size: 74px;
-  font-weight: 900;
+.window-fit-02 {
+  width: 80%;
+  text-align: center;
+  margin: 128px auto;
 }
-.header-container img {
-  background-repeat: no-repeat;
-  height: 598px;
+.section-title {
+  text-align: center;
+  font-size: 34px;
+  font-weight: 800;
 }
-.description {
-  color: rgba(39, 39, 39, 0.6);
-  margin: 32px 0px;
+.section-description {
+  text-align: center;
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
-  padding: 0 40px 0 0;
+  margin: 24px 0 48px 0;
 }
 .btn-primary {
   color: #fff;
@@ -53,26 +65,31 @@ header {
   border-radius: 8px;
   background: #e55473;
 }
-
-/* Our feature section */
-.featured-flower {
-  margin: 130px auto;
+/* header styles starts from here */
+header {
+  height: 90vh;
+}
+.header-container {
+  padding-top: 50px;
   width: 80%;
+  margin: 0 auto;
+  gap: 96px;
 }
-.section-title {
-  color: #272727;
-  text-align: center;
-  font-family: Lato;
-  font-size: 34px;
-  font-weight: 800;
+.header-title {
+  font-size: 74px;
+  font-weight: 900;
 }
-.section-description {
-  color: rgba(39, 39, 39, 0.6);
-  text-align: center;
+.header-container img {
+  height: 598px;
+}
+.header-description {
+  margin: 32px 0px;
   font-size: 18px;
   font-weight: 400;
-  margin: 24px 0 48px 0;
+  line-height: 30px;
+  padding: 0 40px 0 0;
 }
+/* feature section styles*/
 .featured-img {
   display: flex;
   gap: 24px;
@@ -84,13 +101,10 @@ header {
 }
 .featured-img1 {
   background-color: rgba(167, 33, 98, 0.15);
-
   padding: 132px 76px 0px 76px;
 }
 .featured-img2 {
   background-color: rgba(5, 151, 160, 0.15);
-  /* width: 370px;
-  height: 370px; */
   padding: 118px 47px 47px 51px;
 }
 .featured-img3 {
@@ -109,74 +123,44 @@ header {
 }
 /* service section styles starts here */
 .service-section {
-  width: 80%;
-  margin: 128px auto;
-  background-color: rgba(39, 39, 39, 0.05);
   padding: 86px 176px;
-  border-radius: 8px;
   display: flex;
   gap: 100px;
-  text-align: center;
 }
 .service-section > div > p {
   color: rgba(39, 39, 39, 0.8);
   margin-top: 24px;
   font-weight: 700;
+  font-size: 17px;
 }
 /* hot-deal-section styles here */
-.hot-deal-section {
-  background-color: rgba(229, 84, 115, 0.05);
-}
 .hot-deal-container {
-  width: 80%;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
   gap: 186px;
-
   padding: 100px 120px;
 }
 /* instagram section styles here */
-.insta-section {
-  width: 80%;
-  margin: 128px auto;
-}
 .insta-img {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   gap: 24px;
 }
 .insta-img > img {
   width: 24%;
 }
 /* clients styles starts here */
+.client-container {
+  padding: 86px 50px;
+}
 .client-img {
   display: flex;
   gap: 20px;
   padding-top: 30px;
 }
-.client-container {
-  width: 80%;
-  margin: 128px auto;
-  background-color: rgba(39, 39, 39, 0.05);
-  padding: 86px 50px;
-  border-radius: 8px;
-  text-align: center;
-}
-
 /* latest details section styles starts here */
-
 .latest-details {
-  width: 80%;
-  margin: 0 auto;
-  background-image: url("/flower-asset/Rectangle 9.png");
+  text-align: center;
+  background-image: url("./../flower-asset/Rectangle 9.png");
   background-size: contain;
   background-position: center;
   padding: 122px 0px;
-  text-align: center;
   background-repeat: no-repeat;
 }
 input[type="email"] {
@@ -186,10 +170,7 @@ input[type="email"] {
   width: 44%;
 }
 .detail-input {
-  display: flex;
   gap: 16px;
-  align-items: center;
-  justify-content: center;
 }
 /* footer styles starts here */
 footer {
@@ -213,3 +194,4 @@ footer p {
 footer small {
   color: rgba(255, 255, 255, 0.4);
 }
+/* footer styles ends */
